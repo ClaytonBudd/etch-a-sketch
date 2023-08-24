@@ -12,3 +12,11 @@ for (i = 0; i < columnLength; i++ ){
         rowContainer.appendChild(square);
     }
 }
+
+let square = document.querySelectorAll("#square").forEach(elem => {
+    elem.addEventListener("mouseover", item => {
+        elem.setAttribute('style', 'background-color:black;')
+    });
+})
+
+
